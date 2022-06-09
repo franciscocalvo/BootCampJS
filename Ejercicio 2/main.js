@@ -1,0 +1,1 @@
+alert(prompt("Introduce tú nombre"))

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="question-container" id="question1">
+            <div class="header">
+                <h1 class="title">Quiz</h1>
+            </div>
+            <hr>
+            <div class="quiz-content">
+                <div class="question-box">
+                    <p><b>Cual de las siguientes opciones no es un editor de texto</b></p>
+                </div>
+                <div class="options-box">
+                    <input type="button" value="vim">
+                    <input type="button" value="vscode">
+                    <input type="button" value="emacs">
+                    <input type="button" value="word">
+                </div>
+                <div class="footer-question">
+                    <hr>
+                    <p>Question 1 of 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="question-container" id="question2" hidden>
+            <div class="header">
+                <h1 class="title">Quiz</h1>
+            </div>
+            <hr>
+            <div class="quiz-content">
+                <div class="question-box">
+                    <p>Pregunta</p>
+                </div>
+                <div class="options-box">
+                    <input type="button" value="Hola">
+                </div>
+                <hr>
+                <div class="footer-question">
+                    <p>Question 2 of 3</p>
+                </div>
+            </div>
+        </div>
+        <div class="question-container" id="question3" hidden>
+            <div class="header">
+                <h1 class="title">Quiz</h1>
+                <hr>
+            </div>
+            <div class="quiz-content">
+                <div class="question-box">
+                    <p>Pregunta</p>
+                </div>
+                <div class="options-box">
+
+                </div>
+                <div class="footer-question">
+                    <hr>
+                    <p>Question 3 of 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+
+</html>
